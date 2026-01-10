@@ -1,6 +1,5 @@
 import { hopeTheme } from "vuepress-theme-hope";
 
-import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
@@ -17,15 +16,15 @@ export default hopeTheme({
 
   docsDir: "src",
 
-  // 导航栏
-  navbar,
+  // 导航栏 - 完全隐藏
+  navbar: false,
 
   // 侧边栏
   sidebar,
 
   // 页脚
   footer: "默认页脚",
-  displayFooter: true,
+  displayFooter: false,
 
   // 加密配置
   encrypt: {
