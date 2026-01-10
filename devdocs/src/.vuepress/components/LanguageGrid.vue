@@ -1,17 +1,25 @@
 <script setup lang="ts">
 import { languageData } from "../../data/languages.js";
+
+// Base 路径，与 config.ts 中的 base 配置保持一致
+const BASE = "/devdocs/";
 </script>
 
 <template>
-  <div id="top-10" class="custom-container">
+  <div id="top-12" class="custom-container">
     
     <div class="section-title">
-      <h2>🏆 TIOBE 热门编程语言 Top 10</h2>
+      <h2>🏆 TIOBE 热门编程语言 Top 12</h2>
       <p>实时追踪全球技术趋势，掌握核心生产力工具</p>
     </div>
 
     <div class="lang-grid">
-      <div v-for="lang in languageData" :key="lang.id" class="lang-card">
+      <a
+        v-for="lang in languageData" 
+        :key="lang.id" 
+        :href="`${BASE}${lang.id}/`"
+        class="lang-card"
+      >
         
         <div class="rank-badge" :class="'rank-' + lang.rank">
           #{{ lang.rank }}
@@ -28,7 +36,7 @@ import { languageData } from "../../data/languages.js";
 
         <p class="desc">{{ lang.description }}</p>
 
-        <div class="action-row">
+        <div class="action-row" @click.stop>
           <a :href="lang.links.manual" target="_blank" class="btn primary">
             <i class="fa-solid fa-book"></i> 文档
           </a>
@@ -40,7 +48,7 @@ import { languageData } from "../../data/languages.js";
           </a>
         </div>
 
-      </div>
+      </a>
     </div>
   </div>
 </template>
@@ -88,6 +96,10 @@ import { languageData } from "../../data/languages.js";
   position: relative;
   transition: transform 0.2s, box-shadow 0.2s;
   overflow: hidden;
+  cursor: pointer;
+  text-decoration: none !important;
+  display: block;
+  color: inherit;
 }
 
 .lang-card:hover {
