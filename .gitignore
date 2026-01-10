@@ -104,3 +104,5 @@ coverage/
 # ============================================
 .turbo/
 .cursor/
+devlog/
+publish/
