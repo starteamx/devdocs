@@ -1,3 +1,11 @@
+---
+dir:
+  text: JavaScript
+  collapsible: true
+  expanded: true
+  link: false
+---
+
 # JavaScript
 
 > TIOBE 排名 #6 | Web 开发的垄断者，全栈开发的起点。

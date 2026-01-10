@@ -1,3 +1,11 @@
+---
+dir:
+  text: C++
+  collapsible: true
+  expanded: true
+  link: false
+---
+
 # C++
 
 > TIOBE 排名 #2 | 性能的极限，游戏引擎与系统架构核心。

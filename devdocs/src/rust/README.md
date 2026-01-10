@@ -1,3 +1,11 @@
+---
+dir:
+  text: Rust
+  collapsible: true
+  expanded: true
+  link: false
+---
+
 # Rust
 
 > TIOBE 排名 #10 | 内存安全与高性能的未来。

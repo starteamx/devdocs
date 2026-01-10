@@ -1,3 +1,11 @@
+---
+dir:
+  text: Python
+  collapsible: true
+  expanded: true
+  link: false
+---
+
 # Python
 
 > TIOBE 排名 #1 | AI 时代霸主，数据科学与脚本的首选。

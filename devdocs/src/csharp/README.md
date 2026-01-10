@@ -1,3 +1,11 @@
+---
+dir:
+  text: C#
+  collapsible: true
+  expanded: true
+  link: false
+---
+
 # C#
 
 > TIOBE 排名 #5 | 年度语言，Unity 游戏与 .NET 开发利器。

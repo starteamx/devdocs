@@ -1,3 +1,11 @@
+---
+dir:
+  text: SQL (PostgreSQL)
+  collapsible: true
+  expanded: true
+  link: false
+---
+
 # SQL (PostgreSQL)
 
 > TIOBE 排名 #7 | 数据查询标准，后端开发必备技能。

@@ -1,3 +1,11 @@
+---
+dir:
+  text: C
+  collapsible: true
+  expanded: true
+  link: false
+---
+
 # C
 
 > TIOBE 排名 #3 | 现代计算机的基石，底层开发的王者。

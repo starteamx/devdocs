@@ -1,3 +1,11 @@
+---
+dir:
+  text: Go
+  collapsible: true
+  expanded: true
+  link: false
+---
+
 # Go
 
 > TIOBE 排名 #8 | 云原生时代的 C 语言，简洁高效。

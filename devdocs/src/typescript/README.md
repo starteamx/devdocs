@@ -1,3 +1,11 @@
+---
+dir:
+  text: TypeScript
+  collapsible: true
+  expanded: true
+  link: false
+---
+
 # TypeScript
 
 > TIOBE 排名 #9 | JS 的超集，大型前端项目标配。

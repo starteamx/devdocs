@@ -1,3 +1,11 @@
+---
+dir:
+  text: HTML
+  collapsible: true
+  expanded: true
+  link: false
+---
+
 # HTML
 
 > TIOBE 排名 #11 | Web 的骨架。所有网页的起点，语义化的真理。

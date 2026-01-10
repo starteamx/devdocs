@@ -1,3 +1,11 @@
+---
+dir:
+  text: CSS
+  collapsible: true
+  expanded: true
+  link: false
+---
+
 # CSS
 
 > TIOBE 排名 #12 | Web 的皮肤。布局、动画与视觉表现的标准。

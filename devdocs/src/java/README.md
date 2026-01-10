@@ -1,3 +1,11 @@
+---
+dir:
+  text: Java
+  collapsible: true
+  expanded: true
+  link: false
+---
+
 # Java
 
 > TIOBE 排名 #4 | 企业级开发标准，高并发系统的定海神针。
