@@ -1,0 +1,105 @@
+# ============================================
+# VuePress 项目 .gitignore（二级目录结构）
+# ============================================
+
+# ============================================
+# devdocs 二级目录 - 依赖和包管理
+# ============================================
+devdocs/node_modules/
+devdocs/.pnp
+devdocs/.pnp.js
+devdocs/.pnpm-store/
+devdocs/.pnpm-debug.log
+
+# ============================================
+# devdocs 二级目录 - VuePress 构建输出和缓存
+# ============================================
+devdocs/src/.vuepress/dist/
+devdocs/src/.vuepress/.cache/
+devdocs/src/.vuepress/.temp/
+devdocs/src/.vuepress/.server/
+devdocs/dist/
+devdocs/.cache/
+devdocs/.temp/
+
+# ============================================
+# devdocs 二级目录 - TypeScript 编译输出
+# ============================================
+devdocs/**/*.tsbuildinfo
+devdocs/**/*.js.map
+
+# ============================================
+# IDE 和编辑器（全局）
+# ============================================
+# VSCode
+.vscode/
+*.code-workspace
+
+# IntelliJ IDEA / WebStorm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+
+# ============================================
+# 操作系统文件（全局）
+# ============================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+
+# ============================================
+# 日志和临时文件
+# ============================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.tmp
+*.temp
+
+# ============================================
+# 环境变量和敏感信息
+# ============================================
+.env
+.env.local
+.env.*.local
+devdocs/.env
+devdocs/.env.local
+*.secret
+*.key
+
+# ============================================
+# 测试覆盖率
+# ============================================
+coverage/
+.nyc_output/
+
+# ============================================
+# 构建工具
+# ============================================
+.turbo/
