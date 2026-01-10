@@ -2,6 +2,9 @@ import { sidebar } from "vuepress-theme-hope";
 import { languageData } from "../data/languages.js";
 
 // 统一的侧边栏配置：所有页面使用相同的侧边栏
+// 按排名排序
+const sortedLanguageData = [...languageData].sort((a, b) => a.rank - b.rank);
+
 const unifiedSidebar = [
   {
     text: "热门语言",
@@ -9,7 +12,7 @@ const unifiedSidebar = [
     icon: "language",            // 分组图标
     collapsible: true,           // 允许折叠
     expanded: true,              // 默认展开
-    children: languageData.map(lang => ({
+    children: sortedLanguageData.map(lang => ({
       text: `${lang.name} (排名 #${lang.rank})`,
       link: `/${lang.id}/`,
       icon: lang.icon,

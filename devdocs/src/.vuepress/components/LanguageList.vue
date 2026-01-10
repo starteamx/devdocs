@@ -1,59 +1,50 @@
 <script setup lang="ts">
-import { languageData, type CategoryType } from "../../data/languages.js";
+import { computed } from 'vue';
+import { languageData } from "../../data/languages.js";
 
 // Base 路径，与 config.ts 中的 base 配置保持一致
 const BASE = "/devdocs/";
 
-const groups: { key: CategoryType; title: string; icon: string }[] = [
-  { key: 'dominator', title: '👑 第一梯队 (Dominators)', icon: 'fa-solid fa-crown' },
-  { key: 'enterprise', title: '🏢 企业基石 (Enterprise)', icon: 'fa-solid fa-building' },
-  { key: 'modern', title: '⚡️ 现代高性能 (Modern)', icon: 'fa-solid fa-bolt' },
-  { key: 'web', title: '🌐 Web 全栈 (Web Ecosystem)', icon: 'fa-solid fa-globe' },
-];
-
-const getLangs = (cat: CategoryType) => languageData.filter(l => l.category === cat);
+// 按排名排序
+const sortedLanguages = computed(() => {
+  return [...languageData].sort((a, b) => a.rank - b.rank);
+});
 </script>
 
 <template>
   <div class="lang-list-container">
-    <div v-for="group in groups" :key="group.key" class="lang-group">
-      <h2 class="group-title">
-        <i :class="group.icon"></i> {{ group.title }}
-      </h2>
-      
-      <div class="list-wrapper">
-        <a
-          v-for="lang in getLangs(group.key)" 
-          :key="lang.id" 
-          :href="`${BASE}${lang.id}/`"
-          class="lang-row"
-        >
-          <div class="lang-info">
-            <span class="rank" :class="`rank-${lang.rank <= 3 ? lang.rank : 'norm'}`">
-              #{{ lang.rank }}
-            </span>
-            <div class="icon-box">
-              <i :class="lang.icon"></i>
-            </div>
-            <div class="text-box">
-              <h3>{{ lang.name }}</h3>
-              <p>{{ lang.description }}</p>
-            </div>
+    <div class="list-wrapper">
+      <a
+        v-for="lang in sortedLanguages" 
+        :key="lang.id" 
+        :href="`${BASE}${lang.id}/`"
+        class="lang-row"
+      >
+        <div class="lang-info">
+          <span class="rank" :class="`rank-${lang.rank <= 3 ? lang.rank : 'norm'}`">
+            #{{ lang.rank }}
+          </span>
+          <div class="icon-box">
+            <i :class="lang.icon"></i>
           </div>
+          <div class="text-box">
+            <h3>{{ lang.name }}</h3>
+            <p>{{ lang.description }}</p>
+          </div>
+        </div>
 
-          <div class="lang-actions" @click.stop>
-            <a :href="`${BASE}${lang.id}/`" class="btn primary">
-              <i class="fa-solid fa-book-open"></i> 指南
-            </a>
-            <a :href="lang.links.tutorial" target="_blank" class="btn secondary">
-              <i class="fa-solid fa-graduation-cap"></i> 教程
-            </a>
-            <a :href="lang.links.web" target="_blank" class="btn text-link">
-              <i class="fa-solid fa-link"></i> 官网
-            </a>
-          </div>
-        </a>
-      </div>
+        <div class="lang-actions" @click.stop>
+          <a :href="`${BASE}${lang.id}/`" class="btn primary">
+            <i class="fa-solid fa-book-open"></i> 指南
+          </a>
+          <a :href="lang.links.tutorial" target="_blank" class="btn secondary">
+            <i class="fa-solid fa-graduation-cap"></i> 教程
+          </a>
+          <a :href="lang.links.web" target="_blank" class="btn text-link">
+            <i class="fa-solid fa-link"></i> 官网
+          </a>
+        </div>
+      </a>
     </div>
   </div>
 </template>
@@ -62,20 +53,6 @@ const getLangs = (cat: CategoryType) => languageData.filter(l => l.category === 
 .lang-list-container {
   max-width: 960px;
   margin: 0 auto;
-}
-
-.group-title {
-  margin-top: 2.5rem;
-  margin-bottom: 1rem;
-  font-size: 1.4rem;
-  border-bottom: 2px solid var(--theme-color);
-  display: inline-block;
-  padding-bottom: 5px;
-  
-  i { 
-    margin-right: 8px; 
-    color: var(--theme-color); 
-  }
 }
 
 .list-wrapper {
