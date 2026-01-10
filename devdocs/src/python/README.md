@@ -2,11 +2,17 @@
 
 > TIOBE 排名 #1 | AI 时代霸主，数据科学与脚本的首选。
 
-## 📘 核心定位
+## 📘 概述
 
 Python 是当前最热门的编程语言，在 AI、数据科学、Web 开发等领域占据主导地位。
 
-## 💡 灵魂代码
+## 🔗 快速导航
+
+- [📖 API 文档](https://docs.python.org/3/library/) - 标准库参考
+- [🎓 教程](https://docs.python.org/zh-cn/3/tutorial/index.html) - 官方入门指南
+- [🌐 生态中心](https://pypi.org/) - PyPI 包索引
+
+## 💻 代码示例
 
 ```python
 # Python 的核心优势：简洁优雅
@@ -26,14 +32,14 @@ def expensive_function():
     return complex_calculation()
 ```
 
-## 🎯 核心场景
+## 🎯 应用场景
 
 - **AI/机器学习**：TensorFlow、PyTorch、scikit-learn
 - **数据科学**：Pandas、NumPy、Matplotlib
 - **Web 后端**：Django、Flask、FastAPI
 - **自动化脚本**：系统管理、爬虫、测试
 
-## 🧰 必装军火库
+## 🛠️ 工具与框架
 
 ### 数据科学
 - **NumPy**：数值计算基础库
@@ -49,9 +55,3 @@ def expensive_function():
 - **TensorFlow**：Google 的深度学习框架
 - **PyTorch**：Facebook 的深度学习框架
 - **scikit-learn**：机器学习算法库
-
-## 🔗 官方文档链接
-
-- [📖 API 文档](https://docs.python.org/3/library/) - 标准库参考
-- [🎓 教程](https://docs.python.org/3/tutorial/) - 官方入门指南
-- [🌐 生态中心](https://pypi.org/) - PyPI 包索引

@@ -2,11 +2,17 @@
 
 > TIOBE 排名 #5 | 年度语言，Unity 游戏与 .NET 开发利器。
 
-## 📘 核心定位
+## 📘 概述
 
 C# 是微软 .NET 生态的核心语言，在 Windows 应用、Unity 游戏开发、企业级应用等领域广泛应用。
 
-## 💡 灵魂代码
+## 🔗 快速导航
+
+- [📖 API 文档](https://learn.microsoft.com/en-us/dotnet/api/) - .NET API 参考
+- [🎓 教程](https://learn.microsoft.com/en-us/dotnet/csharp/) - C# 学习指南
+- [🌐 官网](https://dotnet.microsoft.com/) - .NET 官网
+
+## 💻 代码示例
 
 ```csharp
 // C# 的核心优势：现代语言特性 + 强类型系统
@@ -32,14 +38,14 @@ public class Person {
 }
 ```
 
-## 🎯 核心场景
+## 🎯 应用场景
 
 - **Unity 游戏开发**：3D 游戏、移动游戏
 - **Windows 应用**：桌面应用、UWP
 - **Web 后端**：ASP.NET Core
 - **企业级应用**：.NET 企业框架
 
-## 🧰 必装军火库
+## 🛠️ 工具与框架
 
 ### 核心框架
 - **.NET Core/.NET**：跨平台运行时
@@ -49,9 +55,3 @@ public class Person {
 ### 游戏开发
 - **Unity**：游戏引擎
 - **MonoGame**：跨平台游戏框架
-
-## 🔗 官方文档链接
-
-- [📖 API 文档](https://learn.microsoft.com/en-us/dotnet/api/) - .NET API 参考
-- [🎓 教程](https://learn.microsoft.com/en-us/dotnet/csharp/) - C# 学习指南
-- [🌐 官网](https://dotnet.microsoft.com/) - .NET 官网

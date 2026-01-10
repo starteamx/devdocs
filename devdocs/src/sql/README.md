@@ -2,11 +2,17 @@
 
 > TIOBE 排名 #7 | 数据查询标准，后端开发必备技能。
 
-## 📘 核心定位
+## 📘 概述
 
 SQL 是关系型数据库的标准查询语言，是所有后端开发者必须掌握的基础技能。
 
-## 💡 灵魂代码
+## 🔗 快速导航
+
+- [📖 API 文档](https://www.postgresql.org/docs/current/index.html) - PostgreSQL 文档
+- [🎓 教程](https://www.w3schools.com/sql/) - SQL 学习教程
+- [🌐 官网](https://www.postgresql.org/) - PostgreSQL 官网
+
+## 💻 代码示例
 
 ```sql
 -- SQL 的核心优势：声明式查询
@@ -31,14 +37,14 @@ SELECT
 FROM employees;
 ```
 
-## 🎯 核心场景
+## 🎯 应用场景
 
 - **数据查询**：业务数据分析
 - **数据管理**：CRUD 操作
 - **数据分析**：报表、统计
 - **数据仓库**：ETL、数据建模
 
-## 🧰 必装军火库
+## 🛠️ 工具与框架
 
 ### 数据库系统
 - **PostgreSQL**：开源关系型数据库
@@ -49,9 +55,3 @@ FROM employees;
 - **pgAdmin**：PostgreSQL 管理工具
 - **DBeaver**：通用数据库工具
 - **DataGrip**：JetBrains 数据库 IDE
-
-## 🔗 官方文档链接
-
-- [📖 API 文档](https://www.postgresql.org/docs/current/index.html) - PostgreSQL 文档
-- [🎓 教程](https://www.w3schools.com/sql/) - SQL 学习教程
-- [🌐 官网](https://www.postgresql.org/) - PostgreSQL 官网

@@ -2,11 +2,17 @@
 
 > TIOBE 排名 #9 | JS 的超集，大型前端项目标配。
 
-## 📘 核心定位
+## 📘 概述
 
 TypeScript 是 JavaScript 的超集，通过类型系统提供更好的开发体验和代码质量，是大型前端项目的首选。
 
-## 💡 灵魂代码
+## 🔗 快速导航
+
+- [📖 API 文档](https://www.typescriptlang.org/docs/) - TypeScript 文档
+- [🎓 教程](https://www.typescriptlang.org/docs/handbook/intro.html) - TypeScript 手册
+- [🌐 官网](https://www.typescriptlang.org/) - TypeScript 官网
+
+## 💻 代码示例
 
 ```typescript
 // TypeScript 的核心优势：类型安全 + 现代语法
@@ -38,14 +44,14 @@ class UserService {
 }
 ```
 
-## 🎯 核心场景
+## 🎯 应用场景
 
 - **大型前端项目**：React、Vue、Angular
 - **全栈开发**：Next.js、NestJS
 - **库开发**：类型定义、SDK 开发
 - **企业级应用**：类型安全的重要性
 
-## 🧰 必装军火库
+## 🛠️ 工具与框架
 
 ### 前端框架
 - **React + TypeScript**：类型安全的 React
@@ -60,9 +66,3 @@ class UserService {
 ### 类型定义
 - **@types/node**：Node.js 类型定义
 - **@types/react**：React 类型定义
-
-## 🔗 官方文档链接
-
-- [📖 API 文档](https://www.typescriptlang.org/docs/) - TypeScript 文档
-- [🎓 教程](https://www.typescriptlang.org/docs/handbook/intro.html) - TypeScript 手册
-- [🌐 官网](https://www.typescriptlang.org/) - TypeScript 官网

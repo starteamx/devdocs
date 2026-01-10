@@ -2,11 +2,17 @@
 
 > TIOBE 排名 #11 | Web 的骨架。所有网页的起点，语义化的真理。
 
-## 📘 核心定位
+## 📘 概述
 
 HTML 是 Web 的基础，定义了网页的结构和内容，是所有 Web 开发者的起点。
 
-## 💡 灵魂代码
+## 🔗 快速导航
+
+- [📖 API 文档](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element) - MDN HTML 元素参考
+- [🎓 教程](https://developer.mozilla.org/zh-CN/docs/Learn/HTML) - MDN HTML 学习指南
+- [🌐 标准规范](https://html.spec.whatwg.org/multipage/) - WHATWG HTML 标准
+
+## 💻 代码示例
 
 ```html
 <!-- HTML 的核心优势：语义化 + 可访问性 -->
@@ -44,14 +50,14 @@ HTML 是 Web 的基础，定义了网页的结构和内容，是所有 Web 开�
 </html>
 ```
 
-## 🎯 核心场景
+## 🎯 应用场景
 
 - **Web 开发**：所有网页的基础
 - **前端开发**：与 CSS、JavaScript 配合
 - **SEO 优化**：语义化标签的重要性
 - **可访问性**：无障碍访问支持
 
-## 🧰 必装军火库
+## 🛠️ 工具与框架
 
 ### 开发工具
 - **HTML Validator**：W3C 验证器
@@ -61,9 +67,3 @@ HTML 是 Web 的基础，定义了网页的结构和内容，是所有 Web 开�
 ### 标准规范
 - **HTML5**：现代 HTML 标准
 - **WHATWG**：HTML 标准规范
-
-## 🔗 官方文档链接
-
-- [📖 API 文档](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element) - MDN HTML 元素参考
-- [🎓 教程](https://developer.mozilla.org/zh-CN/docs/Learn/HTML) - MDN HTML 学习指南
-- [🌐 标准规范](https://html.spec.whatwg.org/multipage/) - WHATWG HTML 标准

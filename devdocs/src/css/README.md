@@ -2,11 +2,17 @@
 
 > TIOBE 排名 #12 | Web 的皮肤。布局、动画与视觉表现的标准。
 
-## 📘 核心定位
+## 📘 概述
 
 CSS 是 Web 的样式语言，控制网页的外观和布局，是现代 Web 开发不可或缺的一部分。
 
-## 💡 灵魂代码
+## 🔗 快速导航
+
+- [📖 API 文档](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Reference) - MDN CSS 参考
+- [🎓 教程](https://developer.mozilla.org/zh-CN/docs/Learn/CSS) - MDN CSS 学习指南
+- [🌐 标准规范](https://www.w3.org/Style/CSS/) - W3C CSS 工作组
+
+## 💻 代码示例
 
 ```css
 /* CSS 的核心优势：灵活布局 + 现代特性 */
@@ -52,14 +58,14 @@ CSS 是 Web 的样式语言，控制网页的外观和布局，是现代 Web 开
 }
 ```
 
-## 🎯 核心场景
+## 🎯 应用场景
 
 - **Web 布局**：响应式设计、Grid/Flexbox
 - **视觉效果**：动画、过渡、变换
 - **主题系统**：CSS 变量、主题切换
 - **移动端适配**：媒体查询、移动优先
 
-## 🧰 必装军火库
+## 🛠️ 工具与框架
 
 ### CSS 框架
 - **Tailwind CSS**：实用优先的 CSS 框架
@@ -74,9 +80,3 @@ CSS 是 Web 的样式语言，控制网页的外观和布局，是现代 Web 开
 ### 工具
 - **Autoprefixer**：自动添加浏览器前缀
 - **CSS Modules**：CSS 模块化
-
-## 🔗 官方文档链接
-
-- [📖 API 文档](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Reference) - MDN CSS 参考
-- [🎓 教程](https://developer.mozilla.org/zh-CN/docs/Learn/CSS) - MDN CSS 学习指南
-- [🌐 标准规范](https://www.w3.org/Style/CSS/) - W3C CSS 工作组
