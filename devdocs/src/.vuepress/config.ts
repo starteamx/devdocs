@@ -12,9 +12,8 @@ export default defineUserConfig({
   base: "/devdocs/",
 
   lang: "zh-CN",
-  title: "文档演示",
-  description: "vuepress-theme-hope 的文档演示",
-
+  title: "DevDocs 开发者文档导航",
+  description: "TIOBE 热门编程语言 API 文档与生态速查 —— 基于 vuepress-theme-hope 主题",
   theme,
 
   plugins: [
