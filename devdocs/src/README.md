@@ -2,4 +2,4 @@
 home: false
 ---
 
-<LanguageGrid />
+<LanguageList />
