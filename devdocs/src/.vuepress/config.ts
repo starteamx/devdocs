@@ -1,5 +1,6 @@
 import { defineUserConfig } from "vuepress";
 import { registerComponentsPlugin } from "@vuepress/plugin-register-components";
+import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
 import { fileURLToPath } from "url";
 import { dirname, resolve } from "path";
 
@@ -19,6 +20,10 @@ export default defineUserConfig({
   plugins: [
     registerComponentsPlugin({
       componentsDir: resolve(__dirname, "./components"),
+    }),
+    // 注册谷歌分析插件
+    googleAnalyticsPlugin({
+      id: "G-LFFSM3CZTD", 
     }),
   ],
 
