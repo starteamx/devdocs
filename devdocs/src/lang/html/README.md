@@ -1,9 +1,10 @@
 ---
+title: HTML
+index: false
 dir:
-  text: HTML
-  collapsible: true
-  expanded: true
-  link: false
+  expanded: false
+  order: 1
+  link: true
 ---
 
 # HTML

@@ -1,9 +1,10 @@
 ---
+title: CSS
+index: false
 dir:
-  text: CSS
-  collapsible: true
-  expanded: true
-  link: false
+  expanded: false
+  order: 1
+  link: true
 ---
 
 # CSS

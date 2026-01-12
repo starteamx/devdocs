@@ -1,10 +1,12 @@
 ---
+title: Python
+index: false
 dir:
-  text: Python
-  collapsible: true
-  expanded: true
-  link: false
+  expanded: false
+  order: 1
+  link: true
 ---
+
 
 # Python
 

@@ -1,9 +1,10 @@
 ---
+title: TypeScript
+index: false
 dir:
-  text: TypeScript
-  collapsible: true
-  expanded: true
-  link: false
+  expanded: false
+  order: 1
+  link: true
 ---
 
 # TypeScript

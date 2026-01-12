@@ -1,9 +1,10 @@
 ---
+title: Java
+index: false
 dir:
-  text: Java
-  collapsible: true
-  expanded: true
-  link: false
+  expanded: false
+  order: 1
+  link: true
 ---
 
 # Java

@@ -17,7 +17,7 @@ const BASE = "/devdocs/";
       <a
         v-for="lang in languageData" 
         :key="lang.id" 
-        :href="`${BASE}${lang.id}/`"
+        :href="`${BASE}lang/${lang.id}/`"
         class="lang-card"
       >
         

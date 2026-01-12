@@ -17,7 +17,7 @@ const sortedLanguages = computed(() => {
       <a
         v-for="lang in sortedLanguages" 
         :key="lang.id" 
-        :href="`${BASE}${lang.id}/`"
+        :href="`${BASE}lang/${lang.id}/`"
         class="lang-row"
       >
         <div class="lang-info">
@@ -34,7 +34,7 @@ const sortedLanguages = computed(() => {
         </div>
 
         <div class="lang-actions" @click.stop>
-          <a :href="`${BASE}${lang.id}/`" class="btn primary">
+          <a :href="`${BASE}lang/${lang.id}/`" class="btn primary">
             <i class="fa-solid fa-book-open"></i> 指南
           </a>
           <a :href="lang.links.tutorial" target="_blank" class="btn secondary">

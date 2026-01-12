@@ -1,10 +1,13 @@
 ---
+title: Rust
+index: false
 dir:
-  text: Rust
-  collapsible: true
-  expanded: true
-  link: false
+  expanded: false
+  order: 1
+  link: true
 ---
+
+
 
 # Rust
 

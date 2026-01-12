@@ -1,9 +1,10 @@
 ---
+title: C
+index: false
 dir:
-  text: C
-  collapsible: true
-  expanded: true
-  link: false
+  expanded: false
+  order: 1
+  link: true
 ---
 
 # C

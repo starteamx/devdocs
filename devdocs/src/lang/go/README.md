@@ -1,9 +1,10 @@
 ---
+title: Go
+index: false
 dir:
-  text: Go
-  collapsible: true
-  expanded: true
-  link: false
+  expanded: false
+  order: 1
+  link: true
 ---
 
 # Go

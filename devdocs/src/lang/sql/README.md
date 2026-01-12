@@ -1,9 +1,10 @@
 ---
+title: SQL
+index: false
 dir:
-  text: SQL (PostgreSQL)
-  collapsible: true
-  expanded: true
-  link: false
+  expanded: false
+  order: 1
+  link: true
 ---
 
 # SQL (PostgreSQL)

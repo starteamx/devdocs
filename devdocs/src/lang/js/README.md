@@ -1,9 +1,10 @@
 ---
+title: JavaScript
+index: false
 dir:
-  text: JavaScript
-  collapsible: true
-  expanded: true
-  link: false
+  expanded: false
+  order: 1
+  link: true
 ---
 
 # JavaScript
